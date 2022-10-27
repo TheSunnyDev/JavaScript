@@ -1,0 +1,21 @@
+// Your task, is to create NxN multiplication table, of size provided in parameter.
+
+// for example, when given size is 3:
+
+// 1 2 3
+// 2 4 6
+// 3 6 9
+// for given example, the return value should be: [[1,2,3],[2,4,6],[3,6,9]]
+
+Solution:
+multiplicationTable = function(size) {
+    const table = [];
+    for (let row = 1; row <= size; row++) {
+      const line = [];
+      for(let col = 1; col <= size; col++){
+        line.push(row * col);
+      }
+      table.push(line)
+    }
+    return table;
+  }
