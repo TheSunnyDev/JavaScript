@@ -4,3 +4,6 @@ Solution:
 function none(arr, fun){
     return !arr.some(fun);
   }
+
+Solution 2:
+const none = (arr, fun) => !arr.some(fun);
