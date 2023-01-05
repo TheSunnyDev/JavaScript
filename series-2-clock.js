@@ -14,3 +14,6 @@ Solution:
 function past(h, m, s){
     return (h * 60 * 60 * 1000) + (m * 60 * 1000) + (s * 1000)
   }
+
+// Additional Solution:
+let past = (h,m,s) => 1000 * (3600 * h + 60 * m + s);
