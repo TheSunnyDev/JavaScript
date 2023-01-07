@@ -2,6 +2,14 @@
 
 // As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
 
-Solution:
+// Solution:
 monkeyCount = n => Array.from({length: n}, (_, index) => index + 1)
 
+// Additonal Solution:
+function monkeyCount(n){
+    var monkeys = [];
+    for(var i = 1; i < n + 1; i++){
+        monkeys.push(i);
+    }
+    return monkeys;
+}
