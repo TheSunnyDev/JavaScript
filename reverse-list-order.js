@@ -5,3 +5,7 @@
 function reverseList(list) {
     return list.reverse()
   }
+
+// Alternative Solution:
+
+const reverseList = list => list.reverse();
