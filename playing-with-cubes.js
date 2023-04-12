@@ -8,7 +8,7 @@
 
 class Cube {
     constructor(side=0){ 
-      this.side = side;
+      this.side = Math.abs(side);
     } 
     
     getSide() {
