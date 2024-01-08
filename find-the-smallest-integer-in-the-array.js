@@ -10,3 +10,4 @@ class SmallestIntegerFinder {
     findSmallestInt = args => Math.min(...args)
       }
       
+// This one is for you Grandaddy. I love you. 💙
